@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>迪丽热巴 - 主页</title>
+    <style>
+        body { margin: 0; padding: 0; font-family: "微软雅黑"; background: #f9f9f9; color: #333; }
+        .container { width: 90%; max-width: 1000px; margin: 0 auto; padding: 20px; }
+        /* 导航栏 */
+        nav { background: #fff; padding: 15px 0; box-shadow: 0 1px 3px #eee; }
+        nav .container { display: flex; justify-content: space-between; align-items: center; }
+        .logo { color: #e63946; font-size: 22px; font-weight: bold; text-decoration: none; }
+        .nav-links a { margin: 0 15px; text-decoration: none; color: #333; }
+        .nav-links a.active { color: #e63946; font-weight: bold; }
+        /* 横幅 */
+        .banner { text-align: center; padding: 40px 0; background: #ffebee; margin-bottom: 30px; }
+        .banner h1 { margin: 0; color: #2d3142; font-size: 28px; }
+        /* 简介 */
+        .intro { display: flex; flex-wrap: wrap; gap: 30px; align-items: center; }
+        .intro-img { flex: 1; min-width: 200px; }
+        .intro-img img { width: 100%; max-width: 250px; border-radius: 8px; }
+        .intro-text { flex: 2; min-width: 250px; }
+        .intro-text h2 { color: #e63946; margin-top: 0; font-size: 22px; }
+        .intro-text p { line-height: 1.6; font-size: 15px; }
+        /* 链接 */
+        .links { display: flex; gap: 20px; justify-content: center; margin: 30px 0; }
+        .link-card { background: #fff; padding: 20px; width: 150px; text-align: center; border-radius: 8px; box-shadow: 0 1px 3px #eee; }
+        .link-card a { text-decoration: none; color: #333; }
+        .link-card i { color: #e63946; font-size: 24px; margin-bottom: 8px; }
+        /* 页脚 */
+        footer { background: #2d3142; color: #fff; text-align: center; padding: 20px 0; margin-top: 40px; }
+    </style>
+    <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav>
+        <div class="container">
+            <a href="index.html" class="logo">迪丽热巴</a>
+            <div class="nav-links">
+                <a href="index.html" class="active">主页</a>
+                <a href="career.html">演艺经历</a>
+                <a href="works.html">代表作品</a>
+                <a href="charity.html">公益活动</a>
+                <a href="life.html">个人生活</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 横幅 -->
+    <div class="banner">
+        <h1>迪丽热巴 · 迪力木拉提</h1>
+        <h2>美貌与演技共存</h2>
+    </div>
+
+    <!-- 核心内容 -->
+    <div class="container">
+        <div class="intro">
+            <div class="intro-img">
+                <img src="images/diyizhang.jpg" alt="迪丽热巴">
+            </div>
+            <div class="intro-text">
+                <h2>个人简介</h2>
+                <p>迪丽热巴（Dilraba），全名迪丽热巴·迪力木拉提，1992年6月3日出生于新疆维吾尔自治区乌鲁木齐市，毕业于上海戏剧学院表演系，中国内地影视女演员。代表作品有《阿娜尔罕》《三生三世枕上书》《漂亮的李慧珍》《你是我的荣耀》《长歌行》《与君初相识》《利剑·玫瑰》等。</p>
+            </div>
+        </div>
+
+        <!-- 快速链接 -->
+        <div class="links">
+            <div class="link-card">
+                <a href="career.html"><i class="fa fa-film"></i><p>演艺经历</p></a>
+            </div>
+            <div class="link-card">
+                <a href="works.html"><i class="fa fa-star"></i><p>代表作品</p></a>
+            </div>
+            <div class="link-card">
+                <a href="charity.html"><i class="fa fa-heart"></i><p>公益活动</p></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- 页脚 -->
+    <footer>
+        <p>迪丽热巴 | 简介</p>
+    </footer>
+</body>
+</html>
