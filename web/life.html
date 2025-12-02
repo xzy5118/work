@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>迪丽热巴 - 个人生活</title>
+    <style>
+        body { margin: 0; padding: 0; font-family: "微软雅黑"; background: #f9f9f9; color: #333; }
+        .container { width: 90%; max-width: 800px; margin: 0 auto; padding: 20px; }
+        /* 导航栏（和其他页面完全一致） */
+        nav { background: #fff; padding: 15px 0; box-shadow: 0 1px 3px #eee; }
+        nav .container { display: flex; justify-content: space-between; align-items: center; }
+        .logo { color: #e63946; font-size: 22px; font-weight: bold; text-decoration: none; }
+        .nav-links a { margin: 0 15px; text-decoration: none; color: #333; }
+        .nav-links a.active { color: #e63946; font-weight: bold; }
+        /* 标题 */
+        .title { text-align: center; margin: 30px 0; }
+        .title h1 { color: #2d3142; font-size: 26px; margin: 0; }
+        /* 生活内容 */
+        .life { background: #fff; border-radius: 8px; padding: 25px; box-shadow: 0 1px 3px #eee; }
+        .life-img { text-align: center; margin-bottom: 20px; }
+        .life-img img { max-width: 100%; border-radius: 8px; }
+        .life p { line-height: 1.6; font-size: 15px; margin: 0 0 15px 0; }
+        /* 页脚 */
+        footer { background: #2d3142; color: #fff; text-align: center; padding: 20px 0; margin-top: 40px; }
+    </style>
+</head>
+<body>
+    <!-- 导航栏（新增「个人生活」链接） -->
+    <nav>
+        <div class="container">
+            <a href="index.html" class="logo">迪丽热巴</a>
+            <div class="nav-links">
+                <a href="index.html">主页</a>
+                <a href="career.html">演艺经历</a>
+                <a href="works.html">代表作品</a>
+                <a href="charity.html">公益活动</a>
+                <a href="life.html" class="active">个人生活</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 标题 -->
+    <div class="title">
+        <h1>个人生活</h1>
+    </div>
+
+    <!-- 核心内容 -->
+    <div class="container">
+        <div class="life">
+            <div class="life-img">
+                <img src="/images/shenghuo.jpg" alt="迪丽热巴生活照"width="300">
+            </div>
+            <p>迪丽热巴来自新疆乌鲁木齐，是维吾尔族姑娘，性格开朗乐观、待人真诚。</p>
+            <p>生活中喜欢小动物，尤其喜欢猫咪，经常在社交平台分享和宠物的日常。</p>
+            <p>闲暇时喜欢阅读、旅行，注重生活品质，始终保持积极向上的生活态度，传递阳光正能量。</p>
+        </div>
+    </div>
+
+    <!-- 页脚 -->
+    <footer>
+        <p>迪丽热巴 | 个人生活</p>
+    </footer>
+</body>
+</html>
